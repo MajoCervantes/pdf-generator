@@ -1,0 +1,29 @@
+{
+	"name": "majo-pdf-generator",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MajoCervantes/password-generator.git"
+	},
+	"keywords": [
+		"PDF",
+		"generator"
+	],
+	"author": "Majo Cervantes",
+	"license": "MIT",
+	"dependencies": {
+		"fs": "^0.0.1-security",
+		"handlebars": "^4.7.7",
+		"html-pdf": "^3.0.1",
+		"path": "^0.12.7",
+		"puppeteer": "^20.3.0"
+	},
+	"devDependencies": {
+		"jest": "^29.5.0"
+	}
+}
